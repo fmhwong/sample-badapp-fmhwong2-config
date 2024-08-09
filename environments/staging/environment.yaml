@@ -41,7 +41,7 @@ app:
       roleArn: crn:v1:bluemix:public:logs:eu-es:a/b3e42c19cc158922f9debfd37af1bec8:eb04f466-1ddb-4347-aabd-5f861ef53017
       logGroup: myLogGroup
       region: us-east-1
-  version: "fa8f0961-29d1-4867-96ec-4eee87c3d39e"
+  version: "971b3cc6-c876-46e1-b5dd-639b2b5c3f9d"
 # probes
 # dynamic scaling
 # scaling to 0
