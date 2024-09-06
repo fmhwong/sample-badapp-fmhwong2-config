@@ -36,11 +36,6 @@ app:
   variables:
     - name: io_openliberty_sample_system_inMaintenance
       value: "false"
-  observability:
-    cloudwatch:
-      roleArn: crn:v1:bluemix:public:logs:eu-es:a/b3e42c19cc158922f9debfd37af1bec8:eb04f466-1ddb-4347-aabd-5f861ef53017
-      logGroup: myLogGroup
-      region: us-east-1
   version: "cb298304-9d10-4925-b28a-2c7f3779643c"
 # probes
 # dynamic scaling
