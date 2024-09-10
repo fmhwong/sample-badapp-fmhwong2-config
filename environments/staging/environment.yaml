@@ -23,14 +23,14 @@ app:
   env:
     - name: JVM_ARGS # q: make that as a top level 'jvmArguments' property?
       value: "-DenvironmentType=stage"
-    - name: OTEL_EXPORTER_OTLP_ENDPOINT
-      value: "http://otel-collector.fmhwong-0712.svc.cluster.local:4317"
-    - name: OTEL_TRACES_EXPORTER
-      value: "none"
-    - name: OTEL_METRIC_EXPORT_INTERVAL
-      value: "1000"
-    - name: OTEL_SDK_DISABLED
-      value: "false"
+#    - name: OTEL_EXPORTER_OTLP_ENDPOINT
+#      value: "http://otel-collector.fmhwong-0712.svc.cluster.local:4317"
+#    - name: OTEL_TRACES_EXPORTER
+#      value: "none"
+#    - name: OTEL_METRIC_EXPORT_INTERVAL
+#      value: "1000"
+#    - name: OTEL_SDK_DISABLED
+#      value: "false"
   # List of variables that can be referenced in server.xml
   # Liberty encrypted values are supported
   variables:
